@@ -10,7 +10,7 @@ Currently "working"
 
 Config file format
 -----------
-As many of the following as you want:
+As many of the following as you want in a file called "accounts" in the current working directory:
 
     [accountname]
     username = user_here
