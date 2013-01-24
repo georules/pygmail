@@ -57,7 +57,8 @@ class SystemTrayIcon(QSystemTrayIcon):
 	def update(self):
 		global data
 		flag = False
-		for x in data:
+		for key in data:
+			x = data[key]
 			if x > 0:
 				flag = True
 		if flag:
