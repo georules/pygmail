@@ -4,9 +4,9 @@ I have multiple shared gmail accounts that I just want notification if there are
 
 Currently "working"
 -------------------
-*An OSX System Tray icon which changes if there are unread messages
-*checkgmail.py scrapes gmail atom feed
-*readgmail.py reads a configuration file "accounts"
+* An OSX System Tray icon which changes if there are unread messages
+* checkgmail.py scrapes gmail atom feed
+* readgmail.py reads a configuration file "accounts"
 
 Config file format
 -----------
@@ -29,7 +29,7 @@ To-do
 Dependencies
 ------------
 Just a few notes about modules that might not be default.
-*checkgmail.py readmail method requires feedparser
-*osxqt4.py requires pyqt4
-*iconwx/iconwx2 are just copy-pasted demos of pythonwx I haven't tried yet
+* checkgmail.py readmail method requires feedparser
+* osxqt4.py requires pyqt4
+* iconwx/iconwx2 are just copy-pasted demos of pythonwx I haven't tried yet
 
